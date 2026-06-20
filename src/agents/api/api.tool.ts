@@ -1,4 +1,4 @@
-import { f } from '../../f.js';
+import { f } from '../../mcpfusion.js';
 import { ResponsePresenter } from '../../views/index.js';
 import { generateUuid } from '../../engine/logic.js';
 

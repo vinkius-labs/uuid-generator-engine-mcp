@@ -1,4 +1,4 @@
-import { createPresenter, ui } from '@vurb/core';
+import { createPresenter, ui } from '@mcpfusion/core';
 import { ResponseModel } from '../models/index.js';
 export const ResponsePresenter = createPresenter('Response').schema(ResponseModel as any).rules(['Display result.'])
   .ui((data: any) => {
